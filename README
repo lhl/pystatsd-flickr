@@ -1,0 +1,10 @@
+This is an old quick and dirty port of Flickr::StatsD https://github.com/iamcal/Flickr-StatsD
+(or at least the parts I needed!)
+
+Saw this sitting around on and old server and figured I'd throw it out there.
+
+It depends on PyRRD http://code.google.com/p/pyrrd/ 
+
+I was also using corestats.py (LGPL) http://www.goldb.org/corestats.html
+
+If you're interested in StatsD stuff, be sure to check out: https://github.com/etsy/statsd
