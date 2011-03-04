@@ -17,7 +17,9 @@ Which is the same concept but talking to Graphite as the storage backend
 
 INSTRUCTIONS
 ===
-Oh... you actually wanted to *use* this code? Well, you can run the statsd.py daemon (change paths as appropriate, easy_install pyrrd)
+Oh... you actually wanted to *use* this code? 
+
+Well, you can run the statsd.py daemon (change paths as appropriate, easy_install pyrrd)
 You can test ping it w/ client.py
 
 If you look in the php folder, the Timer.php Timer::update() method will make an actual call.
