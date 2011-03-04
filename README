@@ -3,8 +3,14 @@ This is an old quick and dirty port of Flickr::StatsD https://github.com/iamcal/
 
 Saw this sitting around on and old server and figured I'd throw it out there.
 
-It depends on PyRRD http://code.google.com/p/pyrrd/ 
+There's a simple python server (and test client).
 
+The PHP folder has an example of how I called it (Timer.php) and also how I generate
+graphs by calling rrdtool (yes, quite lazy, I know).
+
+I use the Daemon class by Sander Marechel http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/
+It depends on PyRRD http://code.google.com/p/pyrrd/ 
 I was also using corestats.py (LGPL) http://www.goldb.org/corestats.html
 
 If you're interested in StatsD stuff, be sure to check out: https://github.com/etsy/statsd
+Which is the same concept but talking to Graphite as the storage backend
